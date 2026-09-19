@@ -1,0 +1,16 @@
+{
+    "install_pinned_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "unirate-cli": {
+                "version": "0.1.0"
+            }
+        }
+    },
+    "install_on_alpine": {
+        "image": "alpine:latest",
+        "features": {
+            "unirate-cli": {}
+        }
+    }
+}
